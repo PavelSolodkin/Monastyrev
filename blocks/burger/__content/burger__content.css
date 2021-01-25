@@ -1,0 +1,29 @@
+@import url(./__app/burger__app.css);
+@import url(./__google/burger__google.css);
+@import url(./__divider/burger__divider.css);
+@import url(./__catalog/burger__catalog.css);
+@import url(./burger__picture.css);
+@import url(./burger__name.css);
+@import url(./burger__about.css);
+@import url(./burger__shape.css);
+@import url(./profile/burger__profile.css);
+@import url(./__place/burger__place.css);
+@import url(./__star/burger__star.css);
+@import url(./__tel/burger__tel.css);
+@import url(./__close/burger__close.css);
+@import url(./__items/burger__items.css);
+
+.burger__content {
+  position: relative;
+  width: 287px;
+  height: 671px;
+  background-color: #fff;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px 17px 31px 13px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,16 @@
+@import url(./__group-1/popup__group-1.css);
+@import url(./__group-2/popup__group-2.css);
+@import url(./__group-3/popup__group-3.css);
+@import url(./__city/popup__city.css);
+
+.popup__groups {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .popup__groups {
+    flex-wrap: wrap;
+  }
+}

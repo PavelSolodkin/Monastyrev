@@ -1,0 +1,11 @@
+@import url(./__about/search__about.css);
+@import url(./__name/search__name.css);
+@import url(./__user/search__user.css);
+
+.search__profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: 32px;
+  cursor: pointer;
+}

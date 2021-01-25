@@ -1,0 +1,33 @@
+@import url(./__vector/search__vector.css);
+
+.search__catalog {
+  width: 208px;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #00893d;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-right: 40px;
+  border: none;
+  cursor: pointer;
+  outline-color: #ffcc00;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .search__catalog {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .search__catalog {
+    margin-right: 10px;
+  }
+}

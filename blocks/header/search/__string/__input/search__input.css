@@ -1,0 +1,31 @@
+.search__input {
+  width: 688px;
+  height: 48px;
+  background: #ffffff;
+  padding: 13px 0 14px 21px;
+  border: 2px solid #ffcc00;
+  box-sizing: border-box;
+  border-radius: 100px;
+  outline: none;
+}
+
+.search__input::placeholder {
+  padding: 13px 0 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #c4c4c4;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .search__input {
+    width: 550px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .search__input {
+    width: 400px;
+  }
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Monastyrev</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu">
+        <img src="./img/menu.png" class="hideMenu" alt="hideMenu" />
+        <img src="./img/hideSearch.png" class="hideSearch" alt="hideSearch" />
+        <img src="./img/logo.png" class="menu__logo" alt="logo" />
+        <img src="./img/hideBuy.png" class="hideBuy" alt="hideBuy" />
+        <div class="menu__city">
+          Владивосток
+          <img src="./img/Shape.png" class="menu__shape" alt="shape" />
+        </div>
+        <ol class="menu__items">
+          <li class="menu__item">Адреса аптек</li>
+          <li class="menu__item">Доставка</li>
+          <li class="menu__item">О нас</li>
+          <li class="menu__item">Акции</li>
+        </ol>
+        <button class="menu__blind">Версия для слабовидящих</button>
+        <img src="./img/eye.png" class="menu__eye" alt="eye" />
+        <p class="menu__phone">8&nbsp;800&nbsp;707&nbsp;77&nbsp;33</p>
+      </div>
+      <div class="search">
+        <button class="search__catalog">
+          <img src="./img/Vector.png" class="search__vector" alt="vector" />
+          Каталог товаров
+        </button>
+        <div class="search__string">
+          <input
+            class="search__input"
+            placeholder="Средство, действующее вещество, проблема"
+          />
+          <button class="search__type">
+            <img src="./img/search.png" class="search__glass" alt="search" />
+          </button>
+        </div>
+        <div class="search__profile">
+          <img src="./img/user.png" class="search__user" alt="user" />
+          <p class="search__name">Константин</p>
+          <p class="search__about">Ваш профиль</p>
+        </div>
+        <img src="./img/star.png" class="search__star" alt="star" />
+        <img src="./img/buy.png" class="search__buy" alt="buy" />
+      </div>
+    </header>
+    <div class="popup">
+      <div class="popup__content">
+        <img src="./img/cross.png" alt="close" class="popup__close" />
+        <h2 class="popup__title">Выберите город</h2>
+        <div class="popup__groups">
+          <ol class="popup__group-1">
+            <li class="popup__city">
+              <span class="popup__town">Владивосток</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Де-Фриз</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Арсеньев</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Артем</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Большой камень</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Вольно-Надеждинское</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Врангель</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+          </ol>
+          <ol class="popup__group-2">
+            <li class="popup__city">
+              <span class="popup__town">Дальнегорск</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Находка</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Сибирцево</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Славянка</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Спасск-дальний</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Уссурийск</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+          </ol>
+          <ol class="popup__group-3">
+            <li class="popup__city">
+              <span class="popup__town">Москва</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Новосибирск</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+            <li class="popup__city">
+              <span class="popup__town">Хабаровск</span
+              ><span class="popup__pharm">12 аптек</span>
+            </li>
+          </ol>
+        </div>
+        <button class="popup__choose">Выбрать</button>
+      </div>
+    </div>
+    <div class="burger">
+      <div class="burger__content">
+        <img src="./img/cross.png" alt="close" class="burger__close" />
+        <div class="burger__catalog">
+          <img
+            src="./img/catalog.png"
+            style="width: 27px; height: 27px"
+            alt="catalog"
+          />
+          <p class="burger__name" style="margin: 10px 0 0 20px; height: 16px">
+            Каталог
+          </p>
+          <img src="./img/Shape-2.png" class="burger__shape" alt="shape" />
+        </div>
+        <div class="burger__divider"></div>
+        <div class="burger__profile">
+          <img src="./img/profile.png" class="burger__picture" alt="profile" />
+          <p class="burger__name">Ваш профиль</p>
+          <p class="burger__about">Анастасия</p>
+        </div>
+        <div class="burger__star">
+          <img src="./img/star.png" class="burger__picture" alt="star" />
+          <p class="burger__name">Избранное</p>
+          <p class="burger__about">15 товаров</p>
+        </div>
+        <div class="burger__place">
+          <img src="./img/plase.png" class="burger__picture" alt="place" />
+          <p class="burger__name">Вольно-Надеждинск</p>
+          <p class="burger__about">15 аптек</p>
+        </div>
+        <div class="burger__items">
+          <div class="burger__item">Акции</div>
+          <div class="burger__item">Доставка</div>
+          <div class="burger__item">Новости</div>
+          <div class="burger__item">О компании</div>
+        </div>
+        <div class="burger__tel">
+          <img src="./img/phone.png" class="burger__picture" alt="phone" />
+          <p class="burger__name">8&nbsp;800&nbsp;707&nbsp;77&nbsp;33</p>
+          <p class="burger__about">Позвонить бесплтано</p>
+        </div>
+        <img src="./img/app-apple.png" class="burger__app" alt="apple" />
+        <img src="./img/app-google.png" class="burger__google" alt="google" />
+      </div>
+    </div>
+    <script type="text/javascript">
+      const city = document.querySelector(".menu__city");
+      const close = document.querySelector(".popup__close");
+      const popup = document.querySelector(".popup");
+      const hideMenu = document.querySelector(".hideMenu");
+      const burger = document.querySelector(".burger");
+      const closeBurger = document.querySelector(".burger__close");
+      const place = document.querySelector(".burger__place");
+
+      city.addEventListener("click", () => {
+        popup.classList.add("popup_isOpened");
+      });
+      close.addEventListener("click", () => {
+        popup.classList.remove("popup_isOpened");
+      });
+      hideMenu.addEventListener("click", () => {
+        burger.classList.add("popup_isOpened");
+      });
+      closeBurger.addEventListener("click", () => {
+        burger.classList.remove("popup_isOpened");
+      });
+      place.addEventListener("click", () => {
+        burger.classList.remove("popup_isOpened");
+        popup.classList.add("popup_isOpened");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.hideBuy {
+  display: none;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .hideBuy {
+    display: flex;
+  }
+}

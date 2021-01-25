@@ -1,0 +1,17 @@
+.menu__logo {
+  width: 208px;
+  height: 23.69px;
+  margin-right: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu__logo {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .menu__logo {
+    margin-right: 34px;
+  }
+}

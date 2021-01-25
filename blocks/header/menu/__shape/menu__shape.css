@@ -1,0 +1,12 @@
+.menu__shape {
+  width: 7.26px;
+  height: 4px;
+  margin-left: 4px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .menu__shape {
+    max-width: 375px;
+    display: none;
+  }
+}

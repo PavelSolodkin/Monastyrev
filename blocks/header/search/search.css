@@ -1,0 +1,20 @@
+@import url(./__catalog/search__catalog.css);
+@import url(./__profile/search__profile.css);
+@import url(./__star/search__star.css);
+@import url(./__string/search__string.css);
+@import url(./__buy/search__buy.css);
+
+.search {
+  height: 48px;
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto 0;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .search {
+    display: none;
+  }
+}

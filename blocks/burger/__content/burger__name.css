@@ -1,0 +1,10 @@
+.burger__name {
+  margin: 0 0 4px 45px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #4a4a4a;
+}

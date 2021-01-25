@@ -1,0 +1,7 @@
+.burger__tel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+  margin-bottom: 48px;
+}

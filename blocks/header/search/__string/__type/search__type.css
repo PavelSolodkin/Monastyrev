@@ -1,0 +1,20 @@
+.search__type {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  background: #ffcc00;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search__type:hover {
+  background: #ffd83a;
+}
+
+.search__type:active {
+  background: #ffe57c;
+}

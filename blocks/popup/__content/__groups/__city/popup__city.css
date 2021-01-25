@@ -1,0 +1,20 @@
+@import url(./__pharm/popup__pharm.css);
+
+.popup__city {
+  height: 18px;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+.popup__town {
+  border-bottom: solid 2px white;
+}
+
+.popup__town:hover {
+  border-bottom: solid 2px #ffcc00;
+  font-weight: bold;
+}

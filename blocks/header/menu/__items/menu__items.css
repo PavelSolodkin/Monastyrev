@@ -1,0 +1,29 @@
+@import url(./__item/menu__item.css);
+
+.menu__items {
+  width: 288px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin-right: 91px;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .menu__items {
+    margin-right: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu__items {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .menu__items {
+    display: none;
+  }
+}

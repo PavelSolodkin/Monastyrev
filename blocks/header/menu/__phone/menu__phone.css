@@ -1,0 +1,14 @@
+.menu__phone {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
+  color: #4a4a4a;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .menu__phone {
+    display: none;
+  }
+}

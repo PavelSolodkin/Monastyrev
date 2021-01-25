@@ -1,0 +1,30 @@
+@import url(./menu/menu.css);
+@import url(./search/search.css);
+@import url(../burger/burger.css);
+
+.header {
+  max-width: 1200px;
+  min-height: 103px;
+  margin: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .header {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header {
+    max-width: 375px;
+    display: flex;
+    flex-direction: row;
+    min-height: 52px;
+  }
+}
