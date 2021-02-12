@@ -2,8 +2,12 @@
 
 Test to Monastyrev
 
-## Вёрстка коректно отображается на основных разрешениях
+## Функционал
 
-## Добавлен небольшой скрипт для просмотра попапа и всплывающего меню при малом разрешении
+Адаптивная вёрстка со всплывающими окнами
 
-## https://pavelsolodkin.github.io/Monastyrev/
+## Технологии:
+
+HTML; CSS (flexbox); BEM; Javascript;
+
+### Link https://pavelsolodkin.github.io/Monastyrev/
